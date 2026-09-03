@@ -3,14 +3,20 @@ public class WhileLoop {
 
 	public static void main(String[] args) {
 	
-	int count = 2; // start count at 2
+	int count = 1; 
 	
-	while (count < 5) // loop while count is <5
+	while (count <= 10) 
 	{
-		System.out.println("count:" + count);
-		count = count + 1; // add one to count and keep updating until finished
+		System.out.print(count + " ");
+		count = count +1; 
 	}
-	System.out.println("finished"); // 
+	System.out.println();
+	for (int num=10;num>=1; num--)
+	{
+		System.out.print(num + " ");
+		count = num +1; 
+	}
+	
 	}
 
 }
