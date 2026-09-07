@@ -1,0 +1,1 @@
+lab5 - mistake in example input (This is not a triangle)
